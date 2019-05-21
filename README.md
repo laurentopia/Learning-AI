@@ -23,3 +23,5 @@ First attempt yiels poor result, around 50% accuracy and 5 loss, footage was cap
 
 Project VTX healing:
 Maybe a simple 
+
+Keras.js https://transcranial.github.io/keras-js/#/mnist-acgan
