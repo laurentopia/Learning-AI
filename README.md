@@ -8,8 +8,6 @@ The summary:
 - "conda create --name tf_gpu tensorflow-gpu"
 - "conda activate tf_gpu"
 - "conda install keras", "conda install matplotlib", "conda install pandas"
-- python
-
 - install Visual Code https://code.visualstudio.com/download
 - setup Visual Code
 	- create a folder and a test.py file
