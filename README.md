@@ -5,8 +5,9 @@ https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-i
 The summary:
 - download anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
 - launch Anaconda Prompt
-- type "conda create --name tf_gpu tensorflow-gpu" and proceed
-- conda activate tf_gpu
+- "conda create --name tf_gpu tensorflow-gpu"
+- "conda activate tf_gpu"
+- "conda install keras", "conda install matplotlib", "conda install pandas"
 - python
 
 - install Visual Code https://code.visualstudio.com/download
