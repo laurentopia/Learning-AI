@@ -15,7 +15,7 @@ The summary:
 	- open "idle"
 	- type "import tensorflow as tf"
 	- no error?
-	- type "tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None)" and wait
+	- type "tf.test.is_gpu_available()", it it's TRUE all is working, YAY
 - install Visual Code https://code.visualstudio.com/download
 - setup Visual Code
 	- create a folder
