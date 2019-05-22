@@ -1,6 +1,6 @@
-# Learning-AI
+## Learning-AI
 
-Setup on windows 10
+# Setup on windows 10
 https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
 The summary:
 - download and install python 3.7 full https://www.python.org/downloads/
