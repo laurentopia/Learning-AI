@@ -2,6 +2,7 @@
 
 ## Setup on windows 10
 https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
+
 The summary:
 - download anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
 - launch Anaconda Prompt
