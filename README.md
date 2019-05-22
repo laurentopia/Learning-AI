@@ -4,7 +4,7 @@
 https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
 The summary:
 - download and install python 3.7 full https://www.python.org/downloads/
-- download and install CUDA 10 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
+- download and install CUDA 10.1 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
 - download CUDNN https://developer.nvidia.com/rdp/cudnn-download
 	- unzip and replace the content of zip\cuda inside C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
 - install tensorflow:
