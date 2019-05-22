@@ -29,7 +29,10 @@ The summary:
 	- right click on the background of the editor window and select run in terminal
 DONE!
 
-Topology of NN
+-----------------
+
+Various topologies of NN
+
 ![](https://cdn-images-1.medium.com/max/600/1*UmLdrVH-_EMnL-pUjcYKhA.png)
 https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
 I'm thinking for the reconstruction of noisy analog VTX signal the LSTM would be good as it keeps memory of the flow of video, maybe it can rebuild video when it goes to static. 
