@@ -4,7 +4,7 @@
 https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
 
 The summary:
-- download miniconda and check "add to PATH" https://repo.continuum.io/miniconda/Miniconda2-4.6.14-Windows-x86_64.exe or anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
+- download and check "add to PATH" miniconda https://repo.continuum.io/miniconda/Miniconda3-4.6.14-Windows-x86_64.exe or anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
 - launch Anaconda Prompt
 - "conda create --name tf_gpu tensorflow-gpu"
 - "conda activate tf_gpu"
