@@ -1,32 +1,21 @@
 # Learning-AI
 
 ## Setup on windows 10
-https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
+https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
 The summary:
-- download and install python 3.7 64bit in FULL https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
-- download and install CUDA 10.1 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
-- download CUDNN https://developer.nvidia.com/rdp/cudnn-download
-	- unzip and replace the content of zip\cuda inside C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
-- install tensorflow:
-	- open a command prompt with admin rights (right click on CMD, admin)
-	- "pip3 install --upgrade tensorflow-gpu"
-- restart
-- test the environment:
-	- open "idle"
-	- type "import tensorflow as tf"
-	- no error?
-	- type "tf.test.is_gpu_available()", it it's TRUE all is working, YAY
+- download anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
+- launch Anaconda Prompt
+- type "conda create --name tf_gpu tensorflow-gpu" and proceed
+- conda activate tf_gpu
+- python
+
 - install Visual Code https://code.visualstudio.com/download
 - setup Visual Code
-	- create a folder
-	- open CMD and go to that folder
-	- type "code ." enter
-	= this launches VC in the folder as project
-	- go in extensions and type python, install the python module with the higuest * count
-	- in VC create a file and save it as test.py
-	- in that file type "import tensorflow as tf"
-	- Code will initiate install of the python interpreter, ok all that
-	- right click on the background of the editor window and select run in terminal
+	- create a folder and a test.py file
+	- open file with code from the context menu
+	- there will be a message on the left pane of code, accept to open the folder
+	- code will also suggest to install the python extension
+	- when this is done, in the lower left corner there is the python version and Conda environment, select tf_gpu
 DONE!
 
 -----------------
