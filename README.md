@@ -12,7 +12,7 @@ The summary:
 - install Visual Code https://code.visualstudio.com/download
 - setup Visual Code
 	- create a folder and a test.py file
-	- launch `code` from conda
+	- launch Visual Code from conda 'conda run -n tf_gpu code'
 	- open file with code from the context menu
 	- there will be a message on the left pane of code, accept to open the folder
 	- code will also suggest to install the python extension
