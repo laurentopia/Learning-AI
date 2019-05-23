@@ -14,9 +14,10 @@ The summary:
 	- create a folder and a test.py file
 	- launch Visual Code from a conda prompt 'conda run -n tf_gpu code'
 	- open file with code from the context menu
-	- there will be a message on the left pane of code, accept to open the folder
-	- code will also suggest to install the python extension
-	- when this is done, in the lower left corner there is the python version and Conda environment, select tf_gpu
+	- there will be a message on the left pane of code, accept to open the folder, this will become your Code project
+	- code will also suggest to install the python extension, do it
+	- when this is done, in the lower left corner there is the python version and Conda environment, select `('tf_gpu':conda)`
+	
 DONE!
 
 -----------------
