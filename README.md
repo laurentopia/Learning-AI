@@ -1,7 +1,7 @@
 # Learning-AI
 
 ## Setup on windows 10
-https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
+Don't hurt yourself with pip, instead use conda, it's automated and cpu inference is over 10x faster than the pip tensorflow. https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc
 
 The summary:
 - install miniconda https://repo.continuum.io/miniconda/Miniconda3-4.6.14-Windows-x86_64.exe or anaconda https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
@@ -19,6 +19,7 @@ The summary:
 	- when this is done, in the lower left corner there is the python version and Conda environment, select `('tf_gpu':conda)`
 	
 DONE!
+After all that, you restart and from that point onwards you won't have to launch code from conda prompt. 
 
 -----------------
 
